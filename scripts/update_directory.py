@@ -76,7 +76,7 @@ USER_AGENT = (
 PERMALINK_RE = re.compile(r"/thefeed/(20\d{2})/(\d{1,2})/(\d{1,2})/[a-z0-9][a-z0-9-]*")
 TAG_RE = re.compile(r'rel="tag"[^>]*>\s*([^<]+?)\s*</a>', re.IGNORECASE)
 # Also match the (href, rel) reversed ordering just in case Squarespace flips it.
-TAG_RE_ALT = re.compile(r'>\s*(Guest|Show):\s*([^<]+?)\s*</a>', re.IGNORECASE)
+TAG_RE_ALT = re.compile(r'>\s*(Guest|Show|Company):\s*([^<]+?)\s*</a>', re.IGNORECASE)
 OG_TITLE_RE = re.compile(r'<meta[^>]+property="og:title"[^>]+content="([^"]*)"', re.IGNORECASE)
 TITLE_TAG_RE = re.compile(r"<title>(.*?)</title>", re.IGNORECASE | re.DOTALL)
 
@@ -128,9 +128,14 @@ def date_from_permalink(url: str) -> str:
     return f"{y:04d}-{mo:02d}-{d:02d}"
 
 
-def extract_tags(html: str) -> tuple[list[str], str | None]:
-    """Return (guest_names, show_name) lifted from the post's rel="tag" anchors."""
-    guests, show = [], None
+def extract_tags(html: str) -> tuple[list[str], str | None, str | None]:
+    """Return (guest_names, show_name, company) from the post's rel="tag" anchors.
+
+    `Company:` is a newer tag (added by the post-creation skill); older posts
+    won't have it, in which case company comes back None and the row's `c` is
+    left blank for a human to fill.
+    """
+    guests, show, company = [], None, None
     texts = TAG_RE.findall(html)
     if not texts:
         # Fall back to the label-anchored pattern.
@@ -138,14 +143,18 @@ def extract_tags(html: str) -> tuple[list[str], str | None]:
             texts.append(f"{label}: {val}")
     for raw in texts:
         text = htmllib.unescape(raw).strip()
-        if text.lower().startswith("guest:"):
+        low = text.lower()
+        if low.startswith("guest:"):
             name = text.split(":", 1)[1].strip()
             if name and name not in guests:
                 guests.append(name)
-        elif text.lower().startswith("show:"):
+        elif low.startswith("show:"):
             if show is None:
                 show = text.split(":", 1)[1].strip()
-    return guests, show
+        elif low.startswith("company:"):
+            if company is None:
+                company = text.split(":", 1)[1].strip()
+    return guests, show, company
 
 
 def extract_title(html: str) -> str:
@@ -194,7 +203,7 @@ def normalize_row(row: dict) -> dict:
 def build_rows_for_post(url: str, fallback_show: str | None) -> list[dict]:
     """Fetch one post and return one row per guest (or a single [NEEDS REVIEW])."""
     html = http_get(url)
-    guests, show = extract_tags(html)
+    guests, show, company = extract_tags(html)
     show = show or fallback_show or ""
     title = extract_title(html)
     date = date_from_permalink(url)
@@ -207,7 +216,7 @@ def build_rows_for_post(url: str, fallback_show: str | None) -> list[dict]:
     rows = []
     for g in guests:
         rows.append(normalize_row({
-            "g": g, "c": "", "s": show, "t": title,
+            "g": g, "c": company or "", "s": show, "t": title,
             "d": date, "u": url, "su": su,
         }))
     return rows
