@@ -1,47 +1,2081 @@
 [
   {
-    "g": "Sample Guest Alpha",
-    "c": "Placeholder Industries",
-    "s": "FUTR.tv",
-    "t": "PLACEHOLDER — replace via the one-time conversion (scripts/update_directory.py --from-html)",
-    "d": "2026-06-30",
-    "u": "https://futr.tv/thefeed/2026/6/30/placeholder-alpha",
-    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
-  },
-  {
-    "g": "Sample Guest Bravo",
-    "c": "Example Corp",
-    "s": "IT Visionaries",
-    "t": "PLACEHOLDER — IT Visionaries sample row",
-    "d": "2026-06-20",
-    "u": "https://futr.tv/thefeed/2026/6/20/placeholder-bravo",
-    "su": "https://futr.tv/thefeed/category/Show%3A+IT+Visionaries"
-  },
-  {
-    "g": "Sample Guest Charlie",
-    "c": "Demo Logistics",
+    "g": "Dr. Sven Beiker",
+    "c": "Silicon Valley Mobility",
     "s": "The Fleet",
-    "t": "PLACEHOLDER — The Fleet sample row",
-    "d": "2026-06-10",
-    "u": "https://futr.tv/thefeed/2026/6/10/placeholder-charlie",
+    "t": "Ex-BMW Exec Exposes The Reality of Electric Autonomous Vehicles — with Dr. Sven Beiker",
+    "d": "2026-06-16",
+    "u": "https://futr.tv/thefeed/2026/6/16/ex-bmw-exec-exposes-the-reality-of-electric-autonomous-vehicles-with-dr-sven-beiker",
     "su": "https://futr.tv/thefeed/category/Show%3A+The+Fleet"
   },
   {
-    "g": "Sample Guest Delta",
-    "c": "Test Ventures",
+    "g": "Sumeet Arora",
+    "c": "Teradata",
+    "s": "IT Visionaries",
+    "t": "How to Maximize ROI on AI in 2026 — with Sumeet Arora",
+    "d": "2026-06-15",
+    "u": "https://futr.tv/thefeed/2026/6/15/how-to-maximize-roi-on-ai-in-2026-with-sumeet-arora",
+    "su": "https://futr.tv/thefeed/category/Show%3A+IT+Visionaries"
+  },
+  {
+    "g": "Lawrence Jones",
+    "c": "incident.io",
+    "s": "IT Visionaries",
+    "t": "90% of AI Demos Fail. Here's How to Build One that Won't — with Lawrence Jones",
+    "d": "2026-06-14",
+    "u": "https://futr.tv/thefeed/2026/6/14/90-of-ai-demos-fail-heres-how-to-build-one-that-wont-with-lawrence-jones",
+    "su": "https://futr.tv/thefeed/category/Show%3A+IT+Visionaries"
+  },
+  {
+    "g": "Lacey Peace",
+    "c": "co-host",
+    "s": "IT Visionaries",
+    "t": "AI Deception: What Is It & How to Prepare",
+    "d": "2026-06-12",
+    "u": "https://futr.tv/thefeed/2026/6/12/ai-deception-what-is-it-amp-how-to-prepare",
+    "su": "https://futr.tv/thefeed/category/Show%3A+IT+Visionaries"
+  },
+  {
+    "g": "Kelle Fontenot",
+    "c": "KPMG US",
+    "s": "IT Visionaries",
+    "t": "The AI Saturation Problem — with KPMG's Kelle Fontenot",
+    "d": "2026-06-12",
+    "u": "https://futr.tv/thefeed/2026/6/12/the-ai-saturation-problem-with-kpmgs-kelle-fontenot",
+    "su": "https://futr.tv/thefeed/category/Show%3A+IT+Visionaries"
+  },
+  {
+    "g": "Vijoy Pandey",
+    "c": "Cisco",
+    "s": "IT Visionaries",
+    "t": "Cisco's Vijoy Pandey: The New Internet, AI Agents, and Quantum Networks",
+    "d": "2026-06-11",
+    "u": "https://futr.tv/thefeed/2026/6/11/ciscos-vijoy-pandey-the-new-internet-ai-agents-and-quantum-networks",
+    "su": "https://futr.tv/thefeed/category/Show%3A+IT+Visionaries"
+  },
+  {
+    "g": "Vineet Mahajan",
+    "c": "U.S. News & World Report",
+    "s": "IT Visionaries",
+    "t": "Turning 90 Years of Data into AI-Powered Insights — with Vineet Mahajan, U.S. News & World Report",
+    "d": "2026-06-10",
+    "u": "https://futr.tv/thefeed/2026/6/10/turning-90-years-of-data-into-ai-powered-insights-with-vineet-mahajan-us-news-amp-world-report",
+    "su": "https://futr.tv/thefeed/category/Show%3A+IT+Visionaries"
+  },
+  {
+    "g": "Bryana Tucci",
+    "c": "AWS",
+    "s": "IT Visionaries",
+    "t": "How the Government Buys Tech — with Bryana Tucci, AWS ICMP Lead and Principal National Security Customer Advisor",
+    "d": "2026-06-09",
+    "u": "https://futr.tv/thefeed/2026/6/9/how-the-government-buys-tech-with-bryana-tucci-aws-icmp-lead-and-principal-national-security-customer-advisor",
+    "su": "https://futr.tv/thefeed/category/Show%3A+IT+Visionaries"
+  },
+  {
+    "g": "Ravi Singh",
+    "c": "Brightspot",
+    "s": "IT Visionaries",
+    "t": "AI in Content Management: Opportunities and Challenges — with Ravi Singh, Brightspot",
+    "d": "2026-06-08",
+    "u": "https://futr.tv/thefeed/2026/6/8/ai-in-content-management-opportunities-and-challenges-with-ravi-singh-brightspot",
+    "su": "https://futr.tv/thefeed/category/Show%3A+IT+Visionaries"
+  },
+  {
+    "g": "Mike Trkay",
+    "c": "FICO",
+    "s": "IT Visionaries",
+    "t": "Why Companies Are Already Abandoning LLMs — with FICO's Mike Trkay",
+    "d": "2026-06-07",
+    "u": "https://futr.tv/thefeed/2026/6/7/hvcqei1bxtlppgng2aqaithkjkmqkq",
+    "su": "https://futr.tv/thefeed/category/Show%3A+IT+Visionaries"
+  },
+  {
+    "g": "Greg Whalen",
+    "c": "Prove AI",
     "s": "FUTR.tv",
-    "t": "PLACEHOLDER — multi-guest episode (row 1 of 2, shares one URL)",
-    "d": "2026-06-05",
-    "u": "https://futr.tv/thefeed/2026/6/5/placeholder-multi",
+    "t": "Your AI Looks 80% Done. It's Actually 20%. Here's Why!",
+    "d": "2026-04-13",
+    "u": "https://futr.tv/thefeed/2026/4/13/your-ai-looks-80-done-its-actually-20-heres-why",
     "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
   },
   {
-    "g": "Sample Guest Echo",
-    "c": "Test Ventures",
+    "g": "Mano Bhattacharya",
+    "c": "Nutanix",
+    "s": "IT Visionaries",
+    "t": "How the Smartest Companies Build Infrastructure That Wins",
+    "d": "2026-03-25",
+    "u": "https://futr.tv/thefeed/2026/3/25/how-the-smartest-companies-build-infrastructure-that-wins",
+    "su": "https://futr.tv/thefeed/category/Show%3A+IT+Visionaries"
+  },
+  {
+    "g": "Kim Huffman",
+    "c": "Workiva",
+    "s": "IT Visionaries",
+    "t": "How the Office of the CFO Is Becoming AI-Powered",
+    "d": "2026-03-24",
+    "u": "https://futr.tv/thefeed/2026/3/23/how-the-office-of-the-cfo-is-becoming-ai-powered",
+    "su": "https://futr.tv/thefeed/category/Show%3A+IT+Visionaries"
+  },
+  {
+    "g": "Elena Fersman",
+    "c": "Ericsson",
+    "s": "IT Visionaries",
+    "t": "The Truth About 5G: Networks Built for AI, Not Consumers",
+    "d": "2026-03-23",
+    "u": "https://futr.tv/thefeed/2026/3/23/the-truth-about-5g-networks-built-for-ai-not-consumers",
+    "su": "https://futr.tv/thefeed/category/Show%3A+IT+Visionaries"
+  },
+  {
+    "g": "Tim Seward",
+    "c": "Onyx Motors",
     "s": "FUTR.tv",
-    "t": "PLACEHOLDER — multi-guest episode (row 2 of 2, shares one URL)",
-    "d": "2026-06-05",
-    "u": "https://futr.tv/thefeed/2026/6/5/placeholder-multi",
+    "t": "Moped Gangs Are Back - And They're Electric!",
+    "d": "2026-02-17",
+    "u": "https://futr.tv/thefeed/2026/2/16/moped-gangs-are-back-and-theyre-electric",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Sampo Hietanen",
+    "c": "Aspectu",
+    "s": "The Fleet",
+    "t": "Why Car Ownership Is Dead: The Future of Mobility",
+    "d": "2025-10-27",
+    "u": "https://futr.tv/thefeed/2025/10/26/why-car-ownership-is-dead-the-future-of-mobility",
+    "su": "https://futr.tv/thefeed/category/Show%3A+The+Fleet"
+  },
+  {
+    "g": "Kevin Damoa",
+    "c": "Glīd",
+    "s": "FUTR.tv",
+    "t": "SpaceX Vet's Transformer Vehicle: Road to Rail Instantly",
+    "d": "2025-09-29",
+    "u": "https://futr.tv/thefeed/2025/9/29/spacex-vets-transformer-vehicle-road-to-rail-instantly",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Balint Pasztor",
+    "c": "Diffuse Drive",
+    "s": "FUTR.tv",
+    "t": "$124B Data Problem: How Synthetic Data Accelerates AI",
+    "d": "2025-09-19",
+    "u": "https://futr.tv/thefeed/2025/9/19/124b-data-problem-how-synthetic-data-accelerates-ai",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Dr. Marcus Weller",
+    "c": "Deep Invent",
+    "s": "FUTR.tv",
+    "t": "AI Patents Itself: The Invention Machine Is Here",
+    "d": "2025-09-16",
+    "u": "https://futr.tv/thefeed/2025/9/16/ai-patents-itself-the-invention-machine-is-here",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Jake Nichol",
+    "c": "Threadless",
+    "s": "FUTR.tv",
+    "t": "The Art of Business and the Power of Community: 25 Years of Threadless With Founder Jake Nickell",
+    "d": "2025-06-09",
+    "u": "https://futr.tv/thefeed/2025/6/9/the-art-of-business-and-the-power-of-community-25-years-of-threadless",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Evan Floersch",
+    "c": "Texas Ranchers",
+    "s": "FUTR.tv",
+    "t": "Major League Pickleball: Behind the Scenes with Texas Ranchers Owner Evan Floersch",
+    "d": "2025-04-21",
+    "u": "https://futr.tv/thefeed/2025/4/21/major-league-pickleball-behind-the-scenes-with-texas-ranchers-owner-evan-floersch",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Colin Godby",
+    "c": "Dust Moto",
+    "s": "FUTR.tv",
+    "t": "Dirt, Fun, and High-Tech: Dust Moto's Game-Changing Electric Dirtbikes",
+    "d": "2025-03-24",
+    "u": "https://futr.tv/thefeed/2025/3/24/dirt-fun-and-high-tech-dust-motos-game-changing-electric-bikes",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Nitkita Bridan",
+    "c": "Oilstainlabs",
+    "s": "FUTR.tv",
+    "t": "The Awe and Excitement of Oilstainlab's New HF11 Supercar Brings the Joy Back to Driving",
+    "d": "2025-03-17",
+    "u": "https://futr.tv/thefeed/2025/3/17/the-awe-and-excitement-of-oilstainlabs-new-hf11-supercar-brings-the-joy-back-to-driving",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "David Tyler",
+    "c": "Artemis Technologies",
+    "s": "FUTR.tv",
+    "t": "Electric Hydrofoiling into the Future: Transforming Water Travel with David Tyler!",
+    "d": "2025-03-03",
+    "u": "https://futr.tv/thefeed/2025/3/1/electric-hydrofoiling-into-the-future-transforming-water-travel-with-david-tyler",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Cerisse Velasco",
+    "c": "Zygna",
+    "s": "FUTR.tv",
+    "t": "Zynga Has Our Attention",
+    "d": "2025-02-24",
+    "u": "https://futr.tv/thefeed/2025/2/23/zynga-has-our-attention",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Angelo Campus",
+    "c": "Boxpower",
+    "s": "FUTR.tv",
+    "t": "Unlocking the Power of the Sun: BoxPower's Modular Solar Revolution!",
+    "d": "2024-10-21",
+    "u": "https://futr.tv/thefeed/2024/10/21/unlocking-the-power-of-the-sun-boxpowers-modular-solar-revolution",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Mark Kurtz",
+    "c": "Neural Magic",
+    "s": "FUTR.tv",
+    "t": "AI Reality Check: What's Really Happening Behind the Hype?",
+    "d": "2024-10-14",
+    "u": "https://futr.tv/thefeed/2024/10/14/ai-reality-check-whats-really-happening-behind-the-hype",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Josh Brown",
+    "c": "DropShot",
+    "s": "FUTR.tv",
+    "t": "Pickleball Passion and Purpose: High-Tech Pickleball Scoring with Dropshot",
+    "d": "2024-10-07",
+    "u": "https://futr.tv/thefeed/2024/10/7/pickleball-passion-and-purpose-high-tech-pickleball-scoring-with-dropshot",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Dr. Meg Richards",
+    "c": "Panalgo",
+    "s": "FUTR.tv",
+    "t": "Saving Lives with Science: The Future of Maternal and Infant Health",
+    "d": "2024-09-30",
+    "u": "https://futr.tv/thefeed/2024/9/30/saving-lives-with-science-the-future-of-maternal-and-infant-health",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Ricky Marton",
+    "c": "Open Access Ventures",
+    "s": "FUTR.tv",
+    "t": "ESG Magic: Why Open Access Ventures is Investing in ESG!",
+    "d": "2024-09-23",
+    "u": "https://futr.tv/thefeed/2024/9/23/esg-magic-why-open-access-ventures-is-investing-in-esg",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Vinnie Campos",
+    "c": "Haven Energy",
+    "s": "FUTR.tv",
+    "t": "Solar Simplified: How Haven Energy Makes Going Green a Breeze!",
+    "d": "2024-09-16",
+    "u": "https://futr.tv/thefeed/2024/9/13/solar-simplified-how-haven-energy-makes-going-green-a-breeze",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Francis Wang",
+    "c": "Nanograf",
+    "s": "FUTR.tv",
+    "t": "Battery Breakthroughs: Nanograf's Silicon Anode Revolution!",
+    "d": "2024-09-09",
+    "u": "https://futr.tv/thefeed/2024/9/9/battery-breakthroughs-nanografs-silicon-anode-revolution",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Dr. Antonis Papatsaras",
+    "c": "Hootsuite",
+    "s": "FUTR.tv",
+    "t": "Redefining Social Media Success: Dr. Antonis Papatsaras Shares Hootsuite's Vision!",
+    "d": "2024-08-26",
+    "u": "https://futr.tv/thefeed/2024/8/25/redefining-social-media-success-dr-antonis-papatsaras-shares-hootsuites-vision",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Dr. Peter Bonutti",
+    "c": "",
+    "s": "FUTR.tv",
+    "t": "Breaking Barriers in Medicine: Dr. Peter Bonutti on Blood-Brain Breakthroughs",
+    "d": "2024-08-12",
+    "u": "https://futr.tv/thefeed/2024/8/12/breaking-barriers-in-medicine-dr-peter-bonutti-on-blood-brain-breakthroughs",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Stacey Yudin",
+    "c": "NEP Services",
+    "s": "FUTR.tv",
+    "t": "From Fundraising to Advocacy: NEP Services is Changing the Nonprofit Game",
+    "d": "2024-08-05",
+    "u": "https://futr.tv/thefeed/2024/8/4/from-fundraising-to-advocacy-nep-services-is-changing-the-nonprofit-game",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Vitaly Golomb",
+    "c": "SofieLabs",
+    "s": "FUTR.tv",
+    "t": "Revolutionizing Sales Pipelines with AI: An Interview with Vitaly Golomb",
+    "d": "2024-07-08",
+    "u": "https://futr.tv/thefeed/2024/7/8/revolutionizing-sales-pipelines-with-ai-an-interview-with-vitaly-golomb",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Manali Yavaktar",
+    "c": "Palm",
+    "s": "FUTR.tv",
+    "t": "Follow your passion: Manali Yavaktar's journey from AI to sustainability",
+    "d": "2024-07-01",
+    "u": "https://futr.tv/thefeed/2024/7/1/follow-your-passion-manali-yavaktars-journey-from-ai-to-sustainability",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Matt Krayton",
+    "c": "Mach2",
+    "s": "FUTR.tv",
+    "t": "Reviving Hydrogen: A Conversation with Matt Krayton on the Future of Clean Energy",
+    "d": "2024-06-24",
+    "u": "https://futr.tv/thefeed/2024/6/24/reviving-hydrogen-a-conversation-with-matt-krayton-on-the-future-of-clean-energy",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Kyle Roof",
+    "c": "IMG",
+    "s": "FUTR.tv",
+    "t": "The New Rules of SEO: Succeeding in an AI-Driven World",
+    "d": "2024-06-03",
+    "u": "https://futr.tv/thefeed/2024/6/3/the-new-rules-of-seo-succeeding-in-an-ai-driven-world",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Daniel Reed",
+    "c": "MxD",
+    "s": "FUTR.tv",
+    "t": "The Power of Public-Private Partnerships in Revitalizing U.S. Manufacturing",
+    "d": "2024-05-13",
+    "u": "https://futr.tv/thefeed/2024/5/13/the-power-of-public-private-partnerships-in-revitalizing-us-manufacturing",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Dr. Craig Joseph",
+    "c": "Nordic Consulting Partners",
+    "s": "FUTR.tv",
+    "t": "Fixing the Broken Healthcare System: How Design Principles Can Help",
+    "d": "2024-05-06",
+    "u": "https://futr.tv/thefeed/2024/5/6/fixing-the-broken-healthcare-system-how-design-principles-can-help",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Kaitlyn Doyle",
+    "c": "TechNexus",
+    "s": "FUTR.tv",
+    "t": "Inside a Unique Chicago VC Firm: TechNexus' Bespoke Approach",
+    "d": "2024-04-29",
+    "u": "https://futr.tv/thefeed/2024/4/29/inside-a-unique-chicago-vc-firm-technexus-bespoke-approach",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Chuck Rinker",
+    "c": "PRSONAS",
+    "s": "FUTR.tv",
+    "t": "Enhancing Patient Experiences with Empathetic, Animated, AI-Powered Avatars",
+    "d": "2024-04-23",
+    "u": "https://futr.tv/thefeed/2024/4/23/enhancing-patient-experiences-with-empathetic-animated-ai-powered-avatars",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Anthony Spiteri",
+    "c": "Veeam",
+    "s": "FUTR.tv",
+    "t": "Cybersecurity in 2024: AI's Impact on Data Protection & Recovery",
+    "d": "2024-04-15",
+    "u": "https://futr.tv/thefeed/2024/4/15/cybersecurity-in-2024-ais-impact-on-data-protection-amp-recovery",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Andrew Bartlow",
+    "c": "People Leader Accelerator",
+    "s": "FUTR.tv",
+    "t": "The State of Employment in 2024: Insights and Strategies for Success from HR Guru Andrew Bartlow",
+    "d": "2024-04-08",
+    "u": "https://futr.tv/thefeed/2024/4/8/the-state-of-employment-in-2024-insights-and-strategies-for-success-from-hr-guru-andrew-bartlow",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Fisayo Oluwadiya",
+    "c": "Resactly",
+    "s": "FUTR.tv",
+    "t": "Failure is not an Option: Inside the early days of Resactly with Fisayo Oluwadiya",
+    "d": "2024-03-25",
+    "u": "https://futr.tv/thefeed/2024/3/25/failure-is-not-an-option-inside-the-early-days-of-resactly-with-fisayo-oluwadiya",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Mark Atkeson",
+    "c": "",
+    "s": "FUTR.tv",
+    "t": "Risky Business: An American Entrepreneur's Journey Through China's Economic Evolution",
+    "d": "2024-03-18",
+    "u": "https://futr.tv/thefeed/2024/3/18/risky-business-an-american-entrepreneurs-journey-through-chinas-economic-evolution",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Lindsay Murphy",
+    "c": "Secoda",
+    "s": "FUTR.tv",
+    "t": "Women Navigating a Career Path in Data & Tech: Insights from Lindsay Murphy",
+    "d": "2024-03-11",
+    "u": "https://futr.tv/thefeed/2024/3/11/women-navigating-a-career-path-in-data-amp-tech-insights-from-lindsey-murphy",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Tony Martignetti",
+    "c": "The Virtual Campfire Podcast",
+    "s": "FUTR.tv",
+    "t": "Avoiding Burnout and Finding Purpose: A Deep Dive with Tony Martignetti",
+    "d": "2024-01-29",
+    "u": "https://futr.tv/thefeed/2024/1/29/avoiding-burnout-and-finding-purpose-a-deep-dive-with-tony-martignetti",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Dr. Carolyn Ward",
+    "c": "Particle Health",
+    "s": "FUTR.tv",
+    "t": "Revolutionizing Healthcare: Unlocking the Power of Data Access with Dr. Carolyn Ward",
+    "d": "2024-01-15",
+    "u": "https://futr.tv/thefeed/2024/1/14/revolutionizing-healthcare-unlocking-the-power-of-data-access-with-dr-carolyn-ward",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Ricky Marton",
+    "c": "Koru",
+    "s": "FUTR.tv",
+    "t": "Unraveling ESG: What Every Company Needs to Know!",
+    "d": "2024-01-08",
+    "u": "https://futr.tv/thefeed/2024/1/8/unraveling-esg-what-every-company-needs-to-know",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Chris Larsen",
+    "c": "Dynapower",
+    "s": "FUTR.tv",
+    "t": "The Future of Hydrogen: Storing Power at a Massive Scale",
+    "d": "2023-11-06",
+    "u": "https://futr.tv/thefeed/2023/11/6/the-future-of-hydrogen-storing-power-at-a-massive-scale",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Suman Kanuganti",
+    "c": "Personal AI",
+    "s": "FUTR.tv",
+    "t": "Unlocking the Power of Personal AI: Redefining the Nature of Identity",
+    "d": "2023-10-30",
+    "u": "https://futr.tv/thefeed/2023/10/30/unlocking-the-power-of-personal-ai-redefining-the-nature-of-identity",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Luca Parisi",
+    "c": "Citeline",
+    "s": "FUTR.tv",
+    "t": "Revolutionizing Drug Development: How AI and Data Are Changing the Game",
+    "d": "2023-10-23",
+    "u": "https://futr.tv/thefeed/2023/10/22/revolutionizing-drug-development-how-ai-and-data-are-changing-the-game",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Lee Blackwell",
+    "c": "Databricks",
+    "s": "FUTR.tv",
+    "t": "Highlights from Databricks' Data + AI World Tour in Chicago - Generation AI Takes Center Stage",
+    "d": "2023-10-16",
+    "u": "https://futr.tv/thefeed/2023/10/16/highlights-from-databricks-data-ai-world-tour-in-chicago-generation-ai-takes-center-stage",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Grace Yao",
+    "c": "PerScholas",
+    "s": "FUTR.tv",
+    "t": "Per Scholas: Transforming Lives Through Free Tech Training and Holistic Support",
+    "d": "2023-10-09",
+    "u": "https://futr.tv/thefeed/2023/10/9/per-scholas-transforming-lives-through-free-tech-training-and-holistic-support",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Daniel Ponciano",
+    "c": "PerScholas",
+    "s": "FUTR.tv",
+    "t": "Per Scholas: Transforming Lives Through Free Tech Training and Holistic Support",
+    "d": "2023-10-09",
+    "u": "https://futr.tv/thefeed/2023/10/9/per-scholas-transforming-lives-through-free-tech-training-and-holistic-support",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Scott Burton",
+    "c": "Earnest Drinker",
+    "s": "FUTR.tv",
+    "t": "Understanding Our Relationship with Alcohol: The Making of the 'Earnest Drinker' Documentary",
+    "d": "2023-10-02",
+    "u": "https://futr.tv/thefeed/2023/10/2/understanding-our-relationship-with-alcohol-the-making-of-the-earnest-drinker-documentary",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Daniel Huerter",
+    "c": "PureSpectrumCBD",
+    "s": "FUTR.tv",
+    "t": "Breaking New Ground: How PureSpectrumCBD Partnered with Major League Baseball",
+    "d": "2023-09-25",
+    "u": "https://futr.tv/thefeed/2023/9/25/breaking-new-ground-how-purespectrumcbd-partnered-with-major-league-baseball",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Pat McNallan",
+    "c": "LaunchGTM",
+    "s": "FUTR.tv",
+    "t": "Sales as a Service: Transforming Your Channel Program with LaunchGTM",
+    "d": "2023-09-18",
+    "u": "https://futr.tv/thefeed/2023/9/18/sales-as-a-service-transforming-your-channel-program-with-launchgtm",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Craig Heile",
+    "c": "LaunchGTM",
+    "s": "FUTR.tv",
+    "t": "Sales as a Service: Transforming Your Channel Program with LaunchGTM",
+    "d": "2023-09-18",
+    "u": "https://futr.tv/thefeed/2023/9/18/sales-as-a-service-transforming-your-channel-program-with-launchgtm",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "BE",
+    "c": "Alinker",
+    "s": "FUTR.tv",
+    "t": "Meet BE: The Creator of the Alinker, a Unique Mobility Device with Style",
+    "d": "2023-09-11",
+    "u": "https://futr.tv/thefeed/2023/9/11/meet-be-the-creator-of-the-alinker-a-unique-mobility-device-with-style",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Herman Artinian",
+    "c": "Upwing Energy",
+    "s": "FUTR.tv",
+    "t": "The Environmental Impact of Fossil Fuel Extraction: Upwing Energy's Sustainable Solution",
+    "d": "2023-09-05",
+    "u": "https://futr.tv/thefeed/2023/9/3/the-environmental-impact-of-fossil-fuel-extraction-upwing-energys-sustainable-solution",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Sri Solur",
+    "c": "Kenmore",
+    "s": "FUTR.tv",
+    "t": "Innovation and Resurgence: CEO Sri Solur's Journey to Reinvent Kenmore's Brand",
+    "d": "2023-08-28",
+    "u": "https://futr.tv/thefeed/2023/8/28/innovation-and-resurgence-ceo-sri-solurs-journey-to-reinvent-kenmores-brand",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Alex Rawitz",
+    "c": "Dimo",
+    "s": "FUTR.tv",
+    "t": "Creating a New Era of Car Customization: The App Store for Your Vehicle",
+    "d": "2023-08-21",
+    "u": "https://futr.tv/thefeed/2023/8/21/creating-a-new-era-of-car-customization-the-app-store-for-your-vehicle",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Andrew Song",
+    "c": "Make Sunsets",
+    "s": "FUTR.tv",
+    "t": "Innovative Geoengineering: How Reflective Clouds Could Buy Time Against Global Warming",
+    "d": "2023-08-14",
+    "u": "https://futr.tv/thefeed/2023/8/14/innovative-geoengineering-how-reflective-clouds-could-buy-time-against-global-warming",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Randy Bapst",
+    "c": "AIBuy",
+    "s": "FUTR.tv",
+    "t": "Revolutionizing Shopping: How In-Content Buying is Changing the Game",
+    "d": "2023-08-07",
+    "u": "https://futr.tv/thefeed/2023/8/7/revolutionizing-shopping-how-in-content-buying-is-changing-the-game",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Dalaney Thompson",
+    "c": "AIBuy",
+    "s": "FUTR.tv",
+    "t": "Revolutionizing Shopping: How In-Content Buying is Changing the Game",
+    "d": "2023-08-07",
+    "u": "https://futr.tv/thefeed/2023/8/7/revolutionizing-shopping-how-in-content-buying-is-changing-the-game",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Loren Williams",
+    "c": "PCs for People",
+    "s": "FUTR.tv",
+    "t": "PCs for People - Solving the E-waste Problem and Getting People Connected",
+    "d": "2023-07-31",
+    "u": "https://futr.tv/thefeed/2023/7/31/pcs-for-people-solving-the-e-waste-problem-and-getting-people-connected",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Tom Frazier",
+    "c": "Redivider",
+    "s": "FUTR.tv",
+    "t": "Edge Computing and Environmental Impact: How Redivider is Leading the Way",
+    "d": "2023-07-17",
+    "u": "https://futr.tv/thefeed/2023/7/17/edge-computing-and-environmental-impact-how-redivider-is-leading-the-way",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Daniel Daoura",
+    "c": "Pebblebee",
+    "s": "FUTR.tv",
+    "t": "From Building Batteries in Bomb Shelters to Tracking Your Stuff, The amazing Pebblebee Journey!",
+    "d": "2023-07-10",
+    "u": "https://futr.tv/thefeed/2023/7/10/from-building-batteries-in-bomb-shelters-to-tracking-your-stuff-the-amazing-pebblebee-journey",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Josh Buxbaum",
+    "c": "WebPurify",
+    "s": "FUTR.tv",
+    "t": "Keeping Users Safe from The Dark Side of the Internet - Winning with WebPurify",
+    "d": "2023-06-19",
+    "u": "https://futr.tv/thefeed/2023/6/17/keeping-users-safe-from-the-dark-side-of-the-internet-winning-with-webpurify",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Nigel LeBlanc",
+    "c": "Cyber Warrior Network",
+    "s": "FUTR.tv",
+    "t": "Unleashing Cybersecurity Talent: How Gaming Translates into Real-World Cybersecurity Jobs",
+    "d": "2023-06-12",
+    "u": "https://futr.tv/thefeed/2023/6/12/unleashing-cybersecurity-talent-how-gaming-translates-into-real-world-cybersecurity-jobs",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Ram Vempati",
+    "c": "Wysa",
+    "s": "FUTR.tv",
+    "t": "Solving the Mental Health Crisis: How AI and Wysa are Revolutionizing Access to Care",
+    "d": "2023-06-05",
+    "u": "https://futr.tv/thefeed/2023/6/5/solving-the-mental-health-crisis-how-ai-and-wysa-are-revolutionizing-access-to-care",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Drew Spaventa",
+    "c": "Spaventa Group",
+    "s": "FUTR.tv",
+    "t": "Cracking the Code of Venture Funding: An Exclusive Interview with Drew Spaventa",
+    "d": "2023-05-30",
+    "u": "https://futr.tv/thefeed/2023/5/29/ry60cqpuifj2q0k1hluzxzlq60iije",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Santiago Jaramillo",
+    "c": "Bunny Studios",
+    "s": "FUTR.tv",
+    "t": "Revolutionizing Content Marketing: Insights from Bunny Studios CEO",
+    "d": "2023-05-22",
+    "u": "https://futr.tv/thefeed/2023/5/22/revolutionizing-content-marketing-insights-from-bunny-studios-ceo",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Beau Button",
+    "c": "Atlas Reality",
+    "s": "FUTR.tv",
+    "t": "The Atlas Tycoon, Building Location Based Mobile Games That Pay The Player",
+    "d": "2023-05-15",
+    "u": "https://futr.tv/thefeed/2023/5/15/the-atlas-tycoon-building-location-based-mobile-games-that-pay-the-player",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Dave Charest",
+    "c": "Constant Contact",
+    "s": "FUTR.tv",
+    "t": "Helping The Small Stand Tall, Constant Contact Marketing For The Small Business Market",
+    "d": "2023-04-24",
+    "u": "https://futr.tv/thefeed/2023/4/24/helping-the-small-stand-tall-constant-contact-marketing-for-the-small-business-market",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Jenny Arrington",
+    "c": "Rebel Human",
+    "s": "FUTR.tv",
+    "t": "Free Your Mind, Body, and Spirit - How to Become a Rebel Human",
+    "d": "2023-04-17",
+    "u": "https://futr.tv/thefeed/2023/4/17/free-your-mind-body-and-spirit-how-to-become-a-rebel-human",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Jez Williman",
+    "c": "D-Fly",
+    "s": "FUTR.tv",
+    "t": "Ear To Ear Smiles with The Future of Personal Electric Vehicles - The Dragonfly",
+    "d": "2023-04-10",
+    "u": "https://futr.tv/thefeed/2023/4/9/8vklaqgbl5l4acgaeewtcatrumqpmv",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Dr. Tait Medina",
+    "c": "Rebel Human",
+    "s": "FUTR.tv",
+    "t": "Unlocking the Secret to a Happier Life: An Interview with Rebel Human Co-founder Dr. Tait Medina",
+    "d": "2023-03-27",
+    "u": "https://futr.tv/thefeed/2023/3/27/unlocking-the-secret-to-a-happier-life-an-interview-with-rebel-human-co-founder-dr-tait-medina",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Adi Gelvan",
+    "c": "Speedb",
+    "s": "FUTR.tv",
+    "t": "The Need for Speedb Powered by Open Source",
+    "d": "2023-03-20",
+    "u": "https://futr.tv/thefeed/2023/3/20/the-need-for-speedb-powered-by-open-source",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Molly Dill",
+    "c": "Gener8tor",
+    "s": "FUTR.tv",
+    "t": "Revving Up Your Business: How Accelerators Fuel Startups - Inside the world of VC Accelerators",
+    "d": "2023-03-13",
+    "u": "https://futr.tv/thefeed/2023/3/13/revving-up-your-business-how-accelerators-fuel-startups-inside-the-world-of-vc-accelerators",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Scott Ford",
+    "c": "Pepper",
+    "s": "FUTR.tv",
+    "t": "Behind the Scenes of Home Automation: How Pepper Makes IoT Possible",
+    "d": "2023-03-06",
+    "u": "https://futr.tv/thefeed/2023/3/6/behind-the-scenes-of-home-automation-how-pepper-makes-iot-possible",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Stan Lequin",
+    "c": "Insight",
+    "s": "FUTR.tv",
+    "t": "Insight's Transformation: The Future of Technology Solutions in 2023",
+    "d": "2023-02-27",
+    "u": "https://futr.tv/thefeed/2023/2/26/insights-transformation-the-future-of-technology-solutions-in-2023-113",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Ross Blum",
+    "c": "Skyline Robotics",
+    "s": "FUTR.tv",
+    "t": "Look up in the sky, it's a bird, it's a plane, it's... Skyline Robotics!",
+    "d": "2023-02-20",
+    "u": "https://futr.tv/thefeed/2023/2/19/look-up-in-the-sky-its-a-bird-its-a-plane-its-skyline-robotics",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Kevin Dominik Korte",
+    "c": "Univention",
+    "s": "FUTR.tv",
+    "t": "The Open Source Advantage - Univention on Building a Company Around Open Source",
+    "d": "2023-02-13",
+    "u": "https://futr.tv/thefeed/2023/2/12/the-open-source-advantage-univention-on-building-a-company-around-open-source-111",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Reagan Fry",
+    "c": "Kajabi",
+    "s": "FUTR.tv",
+    "t": "Uncovering the Creator Economy: Insights from a Social Media Insider with Reagan Fry",
+    "d": "2023-02-06",
+    "u": "https://futr.tv/thefeed/2023/2/6/uncovering-the-creator-economy-insights-from-a-social-media-insider-with-reagan-fry",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Brian O'Shea",
+    "c": "Vesa",
+    "s": "FUTR.tv",
+    "t": "Securing Sensitive Data in the Cloud with Veza: A FUTR Podcast",
+    "d": "2023-01-30",
+    "u": "https://futr.tv/thefeed/2023/1/29/securing-sensitive-data-in-the-cloud-with-veza-a-futr-podcast-109",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Jay Mar-Tang",
+    "c": "Pentera",
+    "s": "FUTR.tv",
+    "t": "Empower Your Security Strategy with Automated Validation from Pentera",
+    "d": "2023-01-23",
+    "u": "https://futr.tv/thefeed/2023/1/22/empower-your-security-strategy-with-automated-validation-from-pentera-108",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Alex Atwood",
+    "c": "GravyWork",
+    "s": "FUTR.tv",
+    "t": "The Gig Economy Gets An Upgrade - 💰 With Alex Atwood of GravyWork",
+    "d": "2023-01-16",
+    "u": "https://futr.tv/thefeed/2023/1/16/the-gig-economy-gets-an-upgrade-with-alex-atwood-of-gravywork-107",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Kyle Roof",
+    "c": "IMG",
+    "s": "FUTR.tv",
+    "t": "How Kyle Roof Reached #1 on Google With SEO",
+    "d": "2023-01-02",
+    "u": "https://futr.tv/thefeed/2022/12/31/how-kyle-roof-reached-1-on-google-for-seo-105",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Vanessa Gabriel",
+    "c": "Drop Delivery",
+    "s": "FUTR.tv",
+    "t": "The Modern Entrepreneur - Growing a Cannatech business with Vanessa Gabriel of Drop Delivery",
+    "d": "2022-12-19",
+    "u": "https://futr.tv/thefeed/2022/12/17/the-modern-entrepreneur-growing-a-cannatech-business-with-vanessa-gabriel-of-drop-delivery-104",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Ralph Andre",
+    "c": "CANVS",
+    "s": "FUTR.tv",
+    "t": "Street Art Hunting - Exploring the Best of Street Art With Ralph Andre of CANVS",
+    "d": "2022-12-05",
+    "u": "https://futr.tv/thefeed/2022/12/4/exploring-street-art-cities-with-ralph-andre-of-canvs-103",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Donna Loughlin",
+    "c": "LMGR",
+    "s": "FUTR.tv",
+    "t": "A Genuine Moment with Master Story Teller Donna Loughlin",
+    "d": "2022-11-14",
+    "u": "https://futr.tv/thefeed/2022/11/14/a-genuine-moment-with-master-story-teller-donn-loughlin-102",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Satish Srinivasan",
+    "c": "DiRx",
+    "s": "FUTR.tv",
+    "t": "Making Medicine Affordable with Satish Srinivasan of DiRx",
+    "d": "2022-11-07",
+    "u": "https://futr.tv/thefeed/2022/11/7/making-medicine-affordable-with-satish-srinivasan-of-dirx-101",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Rich Mendis",
+    "c": "Hirelogic",
+    "s": "FUTR.tv",
+    "t": "The Happy Hire - Rich Mendis of Hirelogic",
+    "d": "2022-10-24",
+    "u": "https://futr.tv/thefeed/2022/10/24/get-a-job-rich-mendis-of-hirelogic-99",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "eric Bednash",
+    "c": "Racktop Systems",
+    "s": "FUTR.tv",
+    "t": "What is Cyberstorage? - Eric Bednash of Racktop Systems",
+    "d": "2022-10-17",
+    "u": "https://futr.tv/thefeed/2022/10/14/encourage-cyberstorage-with-eric-bednash-of-racktop-systems-98",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Sophie Theen",
+    "c": "Soul of a Startup",
+    "s": "FUTR.tv",
+    "t": "The Soul of a Startup with Sophie Theen",
+    "d": "2022-10-07",
+    "u": "https://futr.tv/thefeed/2022/10/7/the-soul-of-a-startup-with-sophie-theen-97",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Ryan Quick",
+    "c": "Data Vortex",
+    "s": "FUTR.tv",
+    "t": "HPC + AI Wall Street 2022 Update",
+    "d": "2022-10-03",
+    "u": "https://futr.tv/thefeed/2022/10/3/hpc-ai-wall-street-2022-update-96",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Lior Balan",
+    "c": "Run:AI",
+    "s": "FUTR.tv",
+    "t": "HPC + AI Wall Street 2022 Update",
+    "d": "2022-10-03",
+    "u": "https://futr.tv/thefeed/2022/10/3/hpc-ai-wall-street-2022-update-96",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Suja Chandrasekaran",
+    "c": "Walmart",
+    "s": "FUTR.tv",
+    "t": "Executive Perspective with Suja Chandrasekaran",
+    "d": "2022-09-26",
+    "u": "https://futr.tv/thefeed/2022/9/26/executive-perspective-with-suja-chandrasekaran-95",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Poojan Kumar",
+    "c": "Clumio",
+    "s": "FUTR.tv",
+    "t": "Aim For Where The Ball Is Going - With Clumio CEO Poojan Kumar",
+    "d": "2022-09-12",
+    "u": "https://futr.tv/thefeed/2022/9/12/aim-for-where-the-ball-is-going-with-clumio-ceo-pujan-kumar-94",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Kira Dineen",
+    "c": "DNA Today",
+    "s": "FUTR.tv",
+    "t": "The Calico Cat Conundrum - Genetics with DNA Today's Kira Dineen",
+    "d": "2022-08-29",
+    "u": "https://futr.tv/thefeed/2022/8/29/the-calico-cat-conundrum-genetics-with-dna-todays-kira-dineen-93",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Rory San Miguel",
+    "c": "Propeller",
+    "s": "FUTR.tv",
+    "t": "Eye in the Sky Drone - Mapping with Propeller",
+    "d": "2022-08-22",
+    "u": "https://futr.tv/thefeed/2022/8/21/eye-in-the-sky-drone-mapping-with-propeller-92",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Giancarlo Hirsch",
+    "c": "Glocomms",
+    "s": "FUTR.tv",
+    "t": "The Great Resignation- Fact or Fiction with Giancarlo Hirsch of Glocomms",
+    "d": "2022-08-15",
+    "u": "https://futr.tv/thefeed/2022/8/13/algexu5qvv9zvusja9z3yv60orjaun",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Pete Ellis",
+    "c": "RedBox",
+    "s": "FUTR.tv",
+    "t": "This Call May Be Monitored - With Pete Ellis From RedBox",
+    "d": "2022-08-08",
+    "u": "https://futr.tv/thefeed/2022/8/7/this-call-may-be-monitored-with-pete-ellis-form-redbox-90",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Landon Campbell",
+    "c": "Drive Capital",
+    "s": "FUTR.tv",
+    "t": "In Their 20s with Landon Campbell",
+    "d": "2022-08-02",
+    "u": "https://futr.tv/thefeed/2022/7/31/in-their-20s-with-landon-campbell-89",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Earl Melivo",
+    "c": "WorldRemit",
+    "s": "FUTR.tv",
+    "t": "The Global Remittance Economy With WorldRemit's Earl Melivo",
+    "d": "2022-07-25",
+    "u": "https://futr.tv/thefeed/2022/7/24/the-global-remittance-economy-with-worldremits-earl-melivo-88",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Joel Beasley",
+    "c": "Modern CTO",
+    "s": "FUTR.tv",
+    "t": "Making Great Podcasts, With Modern CTO's Joel Beasley",
+    "d": "2022-07-18",
+    "u": "https://futr.tv/thefeed/2022/7/18/making-great-podcasts-with-modern-ctos-joel-beasley-87",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Matt Rose",
+    "c": "Bionic",
+    "s": "FUTR.tv",
+    "t": "The Bionic Man - Application Security Posture Management with Matt Rose",
+    "d": "2022-07-11",
+    "u": "https://futr.tv/thefeed/2022/7/10/the-bionic-man-application-security-posture-management-with-matt-rose-8",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Kirk Marple",
+    "c": "Unstruk",
+    "s": "FUTR.tv",
+    "t": "Unstructured Wisdom with Unstruk's CEO Kirk Marple",
+    "d": "2022-06-27",
+    "u": "https://futr.tv/thefeed/2022/6/27/unstructured-wisdom-with-unstruks-ceo-kirk-marple-85",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "David Rush",
+    "c": "SmallWorld",
+    "s": "FUTR.tv",
+    "t": "It's a SmallWorld After All - Talking with SmallWorld CEO David Rush",
+    "d": "2022-06-20",
+    "u": "https://futr.tv/thefeed/2022/6/20/its-a-smallworld-after-all-talking-with-smallworld-ceo-david-rush-84",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Vasant Patel",
+    "c": "Meet the Patels",
+    "s": "FUTR.tv",
+    "t": "Meeting the Patels - Catching up with Vasant and Champa Patel",
+    "d": "2022-06-13",
+    "u": "https://futr.tv/thefeed/2022/6/13/meeting-the-patels-catching-up-with-vasant-and-champa-patel-83",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Champa Patel",
+    "c": "Meet the Patels",
+    "s": "FUTR.tv",
+    "t": "Meeting the Patels - Catching up with Vasant and Champa Patel",
+    "d": "2022-06-13",
+    "u": "https://futr.tv/thefeed/2022/6/13/meeting-the-patels-catching-up-with-vasant-and-champa-patel-83",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Corinne Weible",
+    "c": "PEAT",
+    "s": "FUTR.tv",
+    "t": "Talking Accessibility with PEAT The Partnership on Employment & Accessible Technology",
+    "d": "2022-06-06",
+    "u": "https://futr.tv/thefeed/2022/6/6/talking-accessibility-with-peat-the-partnership-on-employment-amp-accessible-technology-82",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Bill Curtis-Davidson",
+    "c": "PEAT",
+    "s": "FUTR.tv",
+    "t": "Talking Accessibility with PEAT The Partnership on Employment & Accessible Technology",
+    "d": "2022-06-06",
+    "u": "https://futr.tv/thefeed/2022/6/6/talking-accessibility-with-peat-the-partnership-on-employment-amp-accessible-technology-82",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Richard Rushing",
+    "c": "Motorola Mobility",
+    "s": "FUTR.tv",
+    "t": "FUTR Showcase with Motorola Mobility CISO, Richard Rushing and Perdoceo CIO, Dave Czeszewski Panel",
+    "d": "2022-05-31",
+    "u": "https://futr.tv/thefeed/2022/5/31/futr-showcase-with-motorola-mobility-ciso-richard-rushing-and-perdoceo-cio-dave-czeszewski-panel",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Dave Czeszewski",
+    "c": "Perdoceo",
+    "s": "FUTR.tv",
+    "t": "FUTR Showcase with Motorola Mobility CISO, Richard Rushing and Perdoceo CIO, Dave Czeszewski Panel",
+    "d": "2022-05-31",
+    "u": "https://futr.tv/thefeed/2022/5/31/futr-showcase-with-motorola-mobility-ciso-richard-rushing-and-perdoceo-cio-dave-czeszewski-panel",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Saket Modi",
+    "c": "Safe Security",
+    "s": "FUTR.tv",
+    "t": "Quantify Your Risk with Saket Modi, CEO of Safe Security",
+    "d": "2022-05-23",
+    "u": "https://futr.tv/thefeed/2022/5/23/quantify-your-risk-with-saket-modi-ceo-of-safe-security-81",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Richard Carriere",
+    "c": "Cyberlink",
+    "s": "FUTR.tv",
+    "t": "Facial Recognition is Everywhere, Doing it Ethically with Cyberlink's FaceMe - #80",
+    "d": "2022-05-16",
+    "u": "https://futr.tv/thefeed/2022/5/15/facial-recognition-is-everywhere-doing-it-ethically-with-cyberlinks-faceme-80",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Vipin Goyal",
+    "c": "Upbuild",
+    "s": "FUTR.tv",
+    "t": "2 monks and a banker - A chat with Upbuild",
+    "d": "2022-05-09",
+    "u": "https://futr.tv/thefeed/2022/5/8/2-monks-and-a-banker-a-chat-with-upbuild-79",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Rasanath Das",
+    "c": "Upbuild",
+    "s": "FUTR.tv",
+    "t": "2 monks and a banker - A chat with Upbuild",
+    "d": "2022-05-09",
+    "u": "https://futr.tv/thefeed/2022/5/8/2-monks-and-a-banker-a-chat-with-upbuild-79",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Jean-Paul Schmetz",
+    "c": "Ghostery",
+    "s": "FUTR.tv",
+    "t": "Privacy Matters with Ghostery CEO Jean-Paul Schmetz",
+    "d": "2022-05-02",
+    "u": "https://futr.tv/thefeed/2022/5/2/privacy-matters-with-ghostery-ceo-jean-paul-schmetz-78",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Lindsey Alexander",
+    "c": "DisInfoGal",
+    "s": "FUTR.tv",
+    "t": "Understanding the War in Ukraine with Disinfo Gal",
+    "d": "2022-04-25",
+    "u": "https://futr.tv/thefeed/2022/4/25/understanding-the-war-in-ukraine-with-disinfo-gal-77",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Mike Betzer",
+    "c": "Hypergiant",
+    "s": "FUTR.tv",
+    "t": "Solving the Big Problems with AI and Hypergiant",
+    "d": "2022-04-20",
+    "u": "https://futr.tv/thefeed/2022/4/17/solving-the-big-problems-with-ai-and-hypergiant-76",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Raj Datta",
+    "c": "Oak9",
+    "s": "FUTR.tv",
+    "t": "Proactive Security with Oak9's Raj Datta and Aakash Shah",
+    "d": "2022-04-11",
+    "u": "https://futr.tv/thefeed/2022/4/11/proactive-security-with-oak9s-raj-datta-and-aakash-shah-75",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Aakash Shah",
+    "c": "Oak9",
+    "s": "FUTR.tv",
+    "t": "Proactive Security with Oak9's Raj Datta and Aakash Shah",
+    "d": "2022-04-11",
+    "u": "https://futr.tv/thefeed/2022/4/11/proactive-security-with-oak9s-raj-datta-and-aakash-shah-75",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Julian Krenge",
+    "c": "ParcelLab",
+    "s": "FUTR.tv",
+    "t": "Solve the Supply Chain Disaster with ParcelLab - Interview with Founder and CTO Julian Krenge",
+    "d": "2022-04-04",
+    "u": "https://futr.tv/thefeed/2022/4/2/solve-the-supply-chain-disaster-with-parcel-lab-interview-with-founder-and-cto-julian-krenge-74",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Mike Britton",
+    "c": "Abnormal Security",
+    "s": "FUTR.tv",
+    "t": "Battling Business Email Compromise with Abnormal Security's CISO Mike Britton",
+    "d": "2022-03-29",
+    "u": "https://futr.tv/thefeed/2022/3/21/battling-business-email-compromise-with-abnormal-securitys-ciso-mike-britton-73",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Dr. Colleen Tartow",
+    "c": "Starburst Data",
+    "s": "FUTR.tv",
+    "t": "Decentralization, Data, and Web3 a conversation with Dr. Colleen Tartow and Annika Lewis",
+    "d": "2022-03-21",
+    "u": "https://futr.tv/thefeed/2022/3/19/decentralization-data-and-web3-a-conversation-with-dr-colleen-tartow-and-annika-lewis-72",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Annika Lewis",
+    "c": "Gitcoin",
+    "s": "FUTR.tv",
+    "t": "Decentralization, Data, and Web3 a conversation with Dr. Colleen Tartow and Annika Lewis",
+    "d": "2022-03-21",
+    "u": "https://futr.tv/thefeed/2022/3/19/decentralization-data-and-web3-a-conversation-with-dr-colleen-tartow-and-annika-lewis-72",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Pedro Henriques",
+    "c": "TheNewsroom",
+    "s": "FUTR.tv",
+    "t": "It's Time For Trustworthy News with TheNewsroom",
+    "d": "2022-03-14",
+    "u": "https://futr.tv/thefeed/2022/3/12/its-time-for-trustworthy-news-with-thenewsroom-71",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Jenny Romano",
+    "c": "TheNewsroom",
+    "s": "FUTR.tv",
+    "t": "It's Time For Trustworthy News with TheNewsroom",
+    "d": "2022-03-14",
+    "u": "https://futr.tv/thefeed/2022/3/12/its-time-for-trustworthy-news-with-thenewsroom-71",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Nancy Wang",
+    "c": "AWIT",
+    "s": "FUTR.tv",
+    "t": "Advancing Women in Tech with Nancy Wang",
+    "d": "2022-03-07",
+    "u": "https://futr.tv/thefeed/2022/3/7/advancing-women-in-tech-with-nancy-wang-70",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Ryan Quick",
+    "c": "",
+    "s": "FUTR.tv",
+    "t": "The Formula 1 of Computing, HPC with Ryan Quick",
+    "d": "2022-02-28",
+    "u": "https://futr.tv/thefeed/2022/2/27/the-formula-1-of-computing-hpc-with-ryan-quick-69",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Eoin Hinchey",
+    "c": "Tines",
+    "s": "FUTR.tv",
+    "t": "Crack the Security Code, With Tines' No Code/LowCode",
+    "d": "2022-02-21",
+    "u": "https://futr.tv/thefeed/2022/2/21/crack-the-security-code-with-tines-no-codelowcode-68",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Ambuj Kumar",
+    "c": "Fortanix",
+    "s": "FUTR.tv",
+    "t": "Keep it confidential with confidential Computing and Fortanix",
+    "d": "2022-02-14",
+    "u": "https://futr.tv/thefeed/2022/2/14/keep-it-confidential-with-confidential-computing-and-fortanix-67",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Lindsey Alexander",
+    "c": "DisInfoGal",
+    "s": "FUTR.tv",
+    "t": "The Dangers of Disinformation with DisInfoGal",
+    "d": "2022-02-07",
+    "u": "https://futr.tv/thefeed/2022/2/7/the-dangers-of-disinformation-with-disinfogal-66",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Jed Corenthal",
+    "c": "Phenix",
+    "s": "FUTR.tv",
+    "t": "Making the Real-Time Streaming Magic with Phenix",
+    "d": "2022-01-31",
+    "u": "https://futr.tv/thefeed/2022/1/31/making-the-magic-with-phenix-64",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "David Hatfield",
+    "c": "Lacework",
+    "s": "FUTR.tv",
+    "t": "You've Gotta Have Hat - Lacework CEO David Hatfield",
+    "d": "2021-12-06",
+    "u": "https://futr.tv/thefeed/2021/12/6/youve-gotta-have-hat-lacework-with-ceo-david-hatfield-episode-63",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Chadd Kenney",
+    "c": "Clumio",
+    "s": "FUTR.tv",
+    "t": "You gotta stay focused! - Clumio's VP of product, Chadd Kenney on listening to your customers",
+    "d": "2021-11-08",
+    "u": "https://futr.tv/thefeed/2021/11/8/you-gotta-stay-focused-clumios-vp-of-product-chadd-kenney-on-listening-to-your-customers-62",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Paige Lord",
+    "c": "Microsoft",
+    "s": "FUTR.tv",
+    "t": "Is AI the Future or the end of everything - TikTok AI Ethics Influencer Paige Lord",
+    "d": "2021-11-01",
+    "u": "https://futr.tv/thefeed/2021/10/29/is-ai-the-future-or-the-end-of-everything-tiktok-ai-ethics-influencer-paige-lord-61",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Pradeep Sindhu",
+    "c": "Fungible",
+    "s": "FUTR.tv",
+    "t": "Composing the Future with Fungible Co-Founder Pradeep Sindhu",
+    "d": "2021-10-25",
+    "u": "https://futr.tv/thefeed/2021/10/25/composing-the-future-with-fungible-co-founder-pradeep-sindhu-60",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Adam Voss",
+    "c": "Surreal Events",
+    "s": "FUTR.tv",
+    "t": "Hello Metaverse! With Surreal CMO Adam Voss",
+    "d": "2021-10-18",
+    "u": "https://futr.tv/thefeed/2021/10/17/hello-metaverse-with-surreal-cmo-adam-voss-59",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Nick Huedecker",
+    "c": "Cribl",
+    "s": "FUTR.tv",
+    "t": "Finding Gold with Nick Huedecker of Cribl",
+    "d": "2021-10-12",
+    "u": "https://futr.tv/thefeed/2021/10/12/finding-gold-with-nick-huedecker-of-cribl-58",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Akash Khanolkar",
+    "c": "Octane",
+    "s": "FUTR.tv",
+    "t": "High Octane SaaS with Octane founder Akash Khanolkar",
+    "d": "2021-10-07",
+    "u": "https://futr.tv/thefeed/2021/10/7/high-octane-saas-with-octane-founder-akash-khanolkar-57",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Michael Ferranti",
+    "c": "Portworx",
+    "s": "FUTR.tv",
+    "t": "Your Portworx in a Storm, Solving the Database Challenge",
+    "d": "2021-10-04",
+    "u": "https://futr.tv/thefeed/2021/10/3/your-portworx-in-a-storm-solving-the-database-challenge-56",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Tim Frick",
+    "c": "Mighty Bytes",
+    "s": "FUTR.tv",
+    "t": "Doing the Right Thing - B-Corps With Tim Frick",
+    "d": "2021-09-27",
+    "u": "https://futr.tv/thefeed/2021/9/25/doing-the-right-thing-b-corps-with-tim-frick-55",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Ellen Barry",
+    "c": "",
+    "s": "FUTR.tv",
+    "t": "Growing Your Network With Ellen Barry",
+    "d": "2021-09-20",
+    "u": "https://futr.tv/thefeed/2021/9/20/growing-your-network-with-ellen-barry-54",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Brian O'Shea",
+    "c": "Clumio",
+    "s": "FUTR.tv",
+    "t": "The New Go To Market with Clumio's Brian O'Shea",
+    "d": "2021-09-13",
+    "u": "https://futr.tv/thefeed/2021/9/13/the-new-go-to-market-with-clumios-brian-oshea-53",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Mythili Sankaran",
+    "c": "Neythri",
+    "s": "FUTR.tv",
+    "t": "Building Community With Neythri",
+    "d": "2021-08-30",
+    "u": "https://futr.tv/thefeed/2021/8/29/building-community-with-neythri-52",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "John McGrath",
+    "c": "LinkedIn",
+    "s": "FUTR.tv",
+    "t": "Building Your Personal Brand With LinkedIn's John McGrath",
+    "d": "2021-07-26",
+    "u": "https://futr.tv/thefeed/2021/7/25/51-building-your-personal-brand-with-linkedins-john-mcgrath",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Kai Pederson",
+    "c": "",
+    "s": "FUTR.tv",
+    "t": "The Future Is In Their Hands - Here Come The Millenials",
+    "d": "2021-07-19",
+    "u": "https://futr.tv/thefeed/2021/7/19/50-the-future-is-in-their-hands-here-come-the-millenials",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Muddu Sudhakar",
+    "c": "Aisera",
+    "s": "FUTR.tv",
+    "t": "Conversational AI Saves The Day with Aisera CEO Muddu Sudhakar",
+    "d": "2021-07-12",
+    "u": "https://futr.tv/thefeed/2021/7/12/49-conversational-ai-saves-the-day-with-aisera-ceo-muddu-sudhakar",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Jeff Dunworth",
+    "c": "VAST",
+    "s": "FUTR.tv",
+    "t": "Building A Unicorn With VAST Data Founder Jeff Denworth",
+    "d": "2021-06-28",
+    "u": "https://futr.tv/thefeed/2021/6/28/48-building-an-a-hole-free-business-with-vast-data-founder-jeff-denworth",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Andrew Miller",
+    "c": "Pure Storage",
+    "s": "FUTR.tv",
+    "t": "Ransomware Is Everywhere, with Pure Storage's Ransomware expert, Andrew Miller",
+    "d": "2021-06-21",
+    "u": "https://futr.tv/thefeed/2021/6/21/47-ransomware-is-everywhere-with-pure-storages-ransomware-expert-andrew-miller",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Shekar Ayyar",
+    "c": "AdMY",
+    "s": "FUTR.tv",
+    "t": "The Future is 5G with AdMY's CEO Shekar Ayyar",
+    "d": "2021-06-14",
+    "u": "https://futr.tv/thefeed/2021/6/14/46-the-future-is-5g-with-admys-ceo-shekar-ayyar",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Celia Daniels",
+    "c": "",
+    "s": "FUTR.tv",
+    "t": "Being Trans, with Celia Daniels",
+    "d": "2021-06-07",
+    "u": "https://futr.tv/thefeed/2021/6/7/45-being-trans-with-celia-daniels",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Charles Fan",
+    "c": "MemVerge",
+    "s": "FUTR.tv",
+    "t": "Reinventing Computing with MemVerge's CEO Charles Fan",
+    "d": "2021-06-01",
+    "u": "https://futr.tv/thefeed/2021/6/1/44-reinventing-computing-with-memverges-ceo-charles-fan",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Hitesh Sheth",
+    "c": "Vectra AI",
+    "s": "FUTR.tv",
+    "t": "Stopping Ransomware Threats with Vectra AI, An Interview with CEO, Hitesh Sheth",
+    "d": "2021-05-24",
+    "u": "https://futr.tv/thefeed/2021/5/24/43-stopping-ransomware-threats-with-vectra-ai-an-interview-with-ceo-hitesh-sheth",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Sejal Thakkar",
+    "c": "",
+    "s": "FUTR.tv",
+    "t": "Diversity, Equity Inclusion, We Talk With Sejal Thakkar About the Basecamp Walkout",
+    "d": "2021-05-10",
+    "u": "https://futr.tv/thefeed/2021/5/10/42-diversity-equity-inclusion-we-talk-with-sejal-thakkar-about-the-basecamp-walkout",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Lee Blackwell",
+    "c": "Databricks",
+    "s": "FUTR.tv",
+    "t": "Data is a Team Sport - Interview with Databricks' engineer Lee Blackwell",
+    "d": "2021-05-03",
+    "u": "https://futr.tv/thefeed/2021/5/2/41-data-is-a-team-sport-interview-with-databricks-engineer-lee-blackwell",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Rajesh \"Sheik\" Kapoor",
+    "c": "NetApp",
+    "s": "FUTR.tv",
+    "t": "Life Lessons from the Sheik",
+    "d": "2021-04-26",
+    "u": "https://futr.tv/thefeed/2021/4/26/40-life-lessons-from-the-sheik",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Prince Kohli",
+    "c": "Automation Anywhere",
+    "s": "FUTR.tv",
+    "t": "Here Come The Robots - Talking RPA with Automation Anywhere's Prince Kohli",
+    "d": "2021-04-19",
+    "u": "https://futr.tv/thefeed/2021/4/19/39-here-come-the-robots-talking-rpa-with-automation-anywheres-prince-kohli",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Saqib Awan",
+    "c": "Lightspeed Venture Partners",
+    "s": "FUTR.tv",
+    "t": "The Business of Venture Capital with Lightspeed Venture Partners' Saqib Awan",
+    "d": "2021-04-12",
+    "u": "https://futr.tv/thefeed/2021/4/11/38-the-business-of-venture-capital-with-light-speed-venture-partners-saqib-awan",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Dr Coleen Tartow",
+    "c": "Starburst Data",
+    "s": "FUTR.tv",
+    "t": "Talking About Women in Tech - Diversity and Data with Dr Coleen Tartow of Starburst Data",
+    "d": "2021-03-29",
+    "u": "https://futr.tv/thefeed/2021/3/29/37-celebrating-women-in-tech-diversity-and-data-with-dr-coleen-tartow-of-starburst-data",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Nathanael Iversen",
+    "c": "Illumio",
+    "s": "FUTR.tv",
+    "t": "Zero Trust and Microsegmentation with Illumio's Nathanael Iversen",
+    "d": "2021-03-15",
+    "u": "https://futr.tv/thefeed/2021/3/15/36-zero-trust-and-microsegmentation-with-illumios-nathanael-iversen",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Ilan Rabinovitch",
+    "c": "Datadog",
+    "s": "FUTR.tv",
+    "t": "Talking with the Big Dog, Datadog and Ilan Rabinovitch",
+    "d": "2021-03-01",
+    "u": "https://futr.tv/thefeed/2021/3/1/35-talking-with-the-big-dog-datadog-and-ilan-rabinovich",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Jared Phipps",
+    "c": "SentinelOne",
+    "s": "FUTR.tv",
+    "t": "Stopping SolarWinds Breaches with Jared Phipps from SentinelOne",
+    "d": "2021-02-22",
+    "u": "https://futr.tv/thefeed/2021/2/22/34-stopping-solarwinds-breach-with-jared-phipps-from-sentinelone",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Duncan Epping",
+    "c": "VMWare",
+    "s": "FUTR.tv",
+    "t": "The Future of Computing with VMWare Legend Duncan Epping",
+    "d": "2021-02-15",
+    "u": "https://futr.tv/thefeed/2021/2/15/33-the-future-of-computing-with-vmware-legend-duncan-epping",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Sakey Modi",
+    "c": "Safe Security",
+    "s": "FUTR.tv",
+    "t": "Talking Security with Safe Security CEO Saket Modi",
+    "d": "2021-02-08",
+    "u": "https://futr.tv/thefeed/2021/2/7/32-talking-security-with-safe-security-ceo-saket-modi",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Brian Nesmith",
+    "c": "Arctic Wolf",
+    "s": "FUTR.tv",
+    "t": "Managing Your Security With Arctic Wolf CEO Brian NeSmith",
+    "d": "2021-02-01",
+    "u": "https://futr.tv/thefeed/2021/1/31/31-managing-your-security-with-arctic-wolf-ceo-brian-nesmith",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Nick Tasler",
+    "c": "",
+    "s": "FUTR.tv",
+    "t": "Reinventing Yourself During a Pandemic with Nick Tasler",
+    "d": "2021-01-25",
+    "u": "https://futr.tv/thefeed/2021/1/24/30-reinventing-yourself-during-a-pandemic-with-nick-tasler",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Val Bercovici",
+    "c": "Chainkit",
+    "s": "FUTR.tv",
+    "t": "Chainkit CEO Val Bercovici On What You Need To Know About The Solarwinds Breach",
+    "d": "2021-01-18",
+    "u": "https://futr.tv/thefeed/2021/1/18/29-chainkit-ceo-val-bercovici-on-what-you-need-to-know-about-the-solarwinds-breach",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Keegan Riley",
+    "c": "Sysdig",
+    "s": "FUTR.tv",
+    "t": "Digging Deep with Keegan Riley from Sysdig",
+    "d": "2021-01-11",
+    "u": "https://futr.tv/thefeed/2021/1/10/digging-deep-with-keegan-riley-from-sysdig",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Josh Rush",
+    "c": "Surreal Events",
+    "s": "FUTR.tv",
+    "t": "Building Epic Events in Surreal, with Surreal Events CEO, Josh Rush",
+    "d": "2021-01-04",
+    "u": "https://futr.tv/thefeed/2021/1/4/27-building-epic-events-in-surreal-with-surreal-events-ceo-josh-rush",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Zachary Zises",
+    "c": "Dispensary 33",
+    "s": "FUTR.tv",
+    "t": "How to Succeed with Weed - Interview with Cannabis Entrepreneur Zachary Zises",
+    "d": "2020-10-28",
+    "u": "https://futr.tv/thefeed/2020/10/28/26-how-to-succeed-with-weed-interview-with-zachary-zises",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Mahesh Patel",
+    "c": "Druva",
+    "s": "FUTR.tv",
+    "t": "The Evolution of Druva With CFO Mahesh Patel",
+    "d": "2020-10-13",
+    "u": "https://futr.tv/thefeed/2020/10/12/25-the-evolution-of-druva-with-cfo-mahesh-patel",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Joe Tarantino",
+    "c": "Cohesity",
+    "s": "FUTR.tv",
+    "t": "Talking Data Management and Sales With Cohesity's Joe Tarantino",
+    "d": "2020-09-29",
+    "u": "https://futr.tv/thefeed/2020/9/29/24-talking-data-management-and-sales-with-cohesitys-joe-tarantino",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Raju Datla",
+    "c": "CloudFabrix",
+    "s": "FUTR.tv",
+    "t": "Talking AIOPs with CloudFabrix CEO Raju Datla",
+    "d": "2020-09-15",
+    "u": "https://futr.tv/thefeed/2020/9/14/22-talking-aiops-with-cloudfabrix-ceo-raju-datla",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Molly Presley",
+    "c": "Qumulo",
+    "s": "FUTR.tv",
+    "t": "All about Qumulo with Molly Presley",
+    "d": "2020-08-31",
+    "u": "https://futr.tv/thefeed/2020/8/31/21-all-about-qumulo-with-molly-presley",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Sean Longworth",
+    "c": "HotMic",
+    "s": "FUTR.tv",
+    "t": "Sports and Pandemic Pivots with HotMic CEO Sean Longworth",
+    "d": "2020-08-20",
+    "u": "https://futr.tv/thefeed/2020/8/19/20-sports-and-pandemic-pivots-with-hotmic-ceo-sean-longworth",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Bipul Sinha",
+    "c": "Rubrik",
+    "s": "FUTR.tv",
+    "t": "The Wisdom Of Bipul Sinha",
+    "d": "2020-08-12",
+    "u": "https://futr.tv/thefeed/2020/8/11/podcast-19-the-wisdom-of-bipul-sinha",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Adam Voss",
+    "c": "",
+    "s": "FUTR.tv",
+    "t": "eMERGE Update with Adam Voss",
+    "d": "2020-08-05",
+    "u": "https://futr.tv/thefeed/2020/8/4/18-emerge-update-with-adam-voss",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Ravi Patel",
+    "c": "Wonder Woman 1984",
+    "s": "FUTR.tv",
+    "t": "What It Means To Be Indian In America With Actor Ravi Patel",
+    "d": "2020-07-20",
+    "u": "https://futr.tv/thefeed/2020/7/20/podcast-17-what-it-means-to-be-indian-in-america-with-actor-ravi-patel",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Daniel Nowak",
+    "c": "",
+    "s": "FUTR.tv",
+    "t": "The Grey Side of Security with Daniel Nowak - Part 2",
+    "d": "2020-07-07",
+    "u": "https://futr.tv/thefeed/2020/7/7/podcast-16-the-grey-side-of-security-with-daniel-nowak-part-2",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Daniel Nowak",
+    "c": "",
+    "s": "FUTR.tv",
+    "t": "The Grey Side of Security with Daniel Nowak - Part 1",
+    "d": "2020-07-03",
+    "u": "https://futr.tv/thefeed/2020/7/2/podcast-16-the-grey-side-of-security-with-daniel-nowak-part-1",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Sandee Kastrul",
+    "c": "i.c.stars",
+    "s": "FUTR.tv",
+    "t": "20 Years of Matter, Talking About Race With i.c.stars Founder Sandee Kastrul - Part 2",
+    "d": "2020-06-25",
+    "u": "https://futr.tv/thefeed/2020/6/24/83ww7b8dpfzfhujdgr7uunvlrxrzxe",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Sandee Kastrul",
+    "c": "i.c.stars",
+    "s": "FUTR.tv",
+    "t": "20 Years of Matter, Talking About Race With i.c.stars Founder Sandee Kastrul - Part 1",
+    "d": "2020-06-23",
+    "u": "https://futr.tv/thefeed/2020/6/22/podcast-15-20-years-of-matter-talking-about-race-with-sandee-kastrul",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Andrew Dougherty",
+    "c": "",
+    "s": "FUTR.tv",
+    "t": "What's Going On With China? An Interview With Economist Andrew Dougherty - Part 2",
+    "d": "2020-06-17",
+    "u": "https://futr.tv/thefeed/2020/6/17/podcast-14-whats-going-on-with-china-an-interview-with-economist-andrew-dougherty-part-2",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Andrew Dougherty",
+    "c": "",
+    "s": "FUTR.tv",
+    "t": "What's Going On With China? An Interview With Economist Andrew Dougherty - Part 1",
+    "d": "2020-06-16",
+    "u": "https://futr.tv/thefeed/2020/6/15/poodcast-14-whats-going-on-with-china-an-interview-with-economist-andrew-dougherty",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Tim Delisle",
+    "c": "Datalogue",
+    "s": "FUTR.tv",
+    "t": "Talking Data and Leadership with Datalogue Co-Founder and CEO Tim Delisle - Part 2",
+    "d": "2020-06-04",
+    "u": "https://futr.tv/thefeed/2020/6/3/podcast-13-talking-data-and-leadership-with-datalogue-co-founder-and-ceo-tim-delisle-part-2",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Tim Delisle",
+    "c": "Datalogue",
+    "s": "FUTR.tv",
+    "t": "Talking Data and Leadership with Datalogue Co-Founder and CEO Tim Delisle - Part 1",
+    "d": "2020-06-03",
+    "u": "https://futr.tv/thefeed/2020/6/2/podcast-13-talking-data-and-leadership-with-datalogue-co-founder-and-ceo-tim-delisle-part-1",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "John Thompson",
+    "c": "Lightspeed Venture Partners",
+    "s": "FUTR.tv",
+    "t": "Talking Venture Capital with John Thompson and Mukesh Singh",
+    "d": "2020-05-28",
+    "u": "https://futr.tv/thefeed/2020/5/27/podcast-12-talking-venture-capital-with-john-thompson-and-mukesh-singh",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Mukesh Singh",
+    "c": "Confluera",
+    "s": "FUTR.tv",
+    "t": "Talking Security and Confluera with John Thompson and Mukesh Singh",
+    "d": "2020-05-26",
+    "u": "https://futr.tv/thefeed/2020/5/26/podcast-12-talking-security-and-confluera-with-john-thompson-and-mukesh-singh",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Danial Hultin",
+    "c": "",
+    "s": "FUTR.tv",
+    "t": "Surviving COVID19 with Danial Hultin",
+    "d": "2020-05-11",
+    "u": "https://futr.tv/thefeed/2020/5/11/podcast-11-surviving-covid19-with-danial-hultin",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Mark Janus",
+    "c": "Janus Travel",
+    "s": "FUTR.tv",
+    "t": "Saving a Small Business During a Pandemic With Mark Janus",
+    "d": "2020-05-07",
+    "u": "https://futr.tv/thefeed/2020/5/7/podcast-10-saving-a-small-business-during-a-pandemic-with-mark-janus",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Nick Tasler",
+    "c": "",
+    "s": "FUTR.tv",
+    "t": "Organizational Psychology with Nick Tasler - Part 2",
+    "d": "2020-05-05",
+    "u": "https://futr.tv/thefeed/2020/5/5/podcast-9-organizational-psychology-with-nick-tasler-part-2",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Nick Tasler",
+    "c": "",
+    "s": "FUTR.tv",
+    "t": "Organizational Psychology with Nick Tasler - Part 1",
+    "d": "2020-05-04",
+    "u": "https://futr.tv/thefeed/2020/5/3/podcast-9-organizational-psychology-with-nick-tasler-part-1",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Joe Ferguson",
+    "c": "Clumio",
+    "s": "FUTR.tv",
+    "t": "SaaS & Clumio with Joe Ferguson",
+    "d": "2020-04-30",
+    "u": "https://futr.tv/thefeed/2020/4/30/podcast-8-saas-amp-clumio-with-joe-ferguson",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Phil Johanet",
+    "c": "",
+    "s": "FUTR.tv",
+    "t": "The Sales Machine with Phil Johanet - Part 2",
+    "d": "2020-04-28",
+    "u": "https://futr.tv/thefeed/2020/4/27/podcast-7-the-sales-machine-with-phil-johanet-part-2",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Phil Johanet",
+    "c": "",
+    "s": "FUTR.tv",
+    "t": "The Sales Machine with Phil Johanet - Part 1",
+    "d": "2020-04-27",
+    "u": "https://futr.tv/thefeed/2020/4/26/podcast-7-the-sales-machine-with-phil-johanet",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Dave Czeszewski",
+    "c": "Perdoceo",
+    "s": "FUTR.tv",
+    "t": "The CIO perspective with Dave Czeszewski - Part 2",
+    "d": "2020-04-17",
+    "u": "https://futr.tv/thefeed/2020/4/17/podcast-6-the-cio-perspective-with-dave-czeszewski-part-2",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Dave Czeszewski",
+    "c": "Perdoceo",
+    "s": "FUTR.tv",
+    "t": "The CIO perspective with Dave Czeszewski - Part 1",
+    "d": "2020-04-16",
+    "u": "https://futr.tv/thefeed/2020/4/16/podcast-6-the-cio-perspective-with-dave-czeszewski-part-1",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Shawn O'Grady",
+    "c": "Insight",
+    "s": "FUTR.tv",
+    "t": "Leadership with Shawn O'Grady - Part 2",
+    "d": "2020-04-15",
+    "u": "https://futr.tv/thefeed/2020/4/14/podcast-5-leadership-with-shawn-ogrady-part-2",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Shawn O'Grady",
+    "c": "Insight",
+    "s": "FUTR.tv",
+    "t": "Leadership with Shawn O'Grady - Part 1",
+    "d": "2020-04-13",
+    "u": "https://futr.tv/thefeed/2020/4/13/podcast-5-leadership-with-shawn-ogrady",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Miguel Torres",
+    "c": "",
+    "s": "FUTR.tv",
+    "t": "Transformation with Miguel Torres - Part 2",
+    "d": "2020-04-01",
+    "u": "https://futr.tv/thefeed/2020/3/31/podcast-3-transformation-with-miguel-torres-part-2",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Miguel Torres",
+    "c": "",
+    "s": "FUTR.tv",
+    "t": "Transformation with Miguel Torres - Part-1",
+    "d": "2020-03-31",
+    "u": "https://futr.tv/thefeed/2020/3/30/podcast-3-transformation-with-miguel-torres",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Dr. Rahul Sharma",
+    "c": "Funkadesi",
+    "s": "FUTR.tv",
+    "t": "Mental Health in Tech - Part 2",
+    "d": "2020-03-26",
+    "u": "https://futr.tv/thefeed/2020/3/25/podcast-2-mental-health-in-tech-part-2",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Dr. Rahul Sharma",
+    "c": "Funkadesi",
+    "s": "FUTR.tv",
+    "t": "Mental Health in Tech With Dr. Rahul Sharma - Part 1",
+    "d": "2020-03-25",
+    "u": "https://futr.tv/thefeed/2020/3/24/podcast-2-mental-health-in-tech-with-dr-rahul-sharma-part-1",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Adam Voss",
+    "c": "Surreal Events",
+    "s": "FUTR.tv",
+    "t": "Out of an abundance of caution, With Adam Voss From Surreal Events - Part 2",
+    "d": "2020-03-18",
+    "u": "https://futr.tv/thefeed/2020/3/17/jzsrr669arcung6s9iin3t9w4pqw45",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Adam Voss",
+    "c": "Surreal Events",
+    "s": "FUTR.tv",
+    "t": "Out of an abundance of caution, With Adam Voss From Surreal Events - Part 1",
+    "d": "2020-03-16",
+    "u": "https://futr.tv/thefeed/2020/3/16/futrtech-video-podcast-1-out-of-an-abundance-of-caution-part-1",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Paul Jasek",
+    "c": "Instana",
+    "s": "FUTR.tv",
+    "t": "AWS Re:Invent 2019 Interviews - Instana and Infinidat",
+    "d": "2019-12-14",
+    "u": "https://futr.tv/thefeed/2019/12/13/aws-reinvent-2019-interviews-instana-and-infinidat",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Erik Kaulberg",
+    "c": "Infinidat",
+    "s": "FUTR.tv",
+    "t": "AWS Re:Invent 2019 Interviews - Instana and Infinidat",
+    "d": "2019-12-14",
+    "u": "https://futr.tv/thefeed/2019/12/13/aws-reinvent-2019-interviews-instana-and-infinidat",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Will Pericak",
+    "c": "FiveTran",
+    "s": "FUTR.tv",
+    "t": "AWS Re:Invent 2019 Interviews - Fivetran and Perimeter81",
+    "d": "2019-12-13",
+    "u": "https://futr.tv/thefeed/2019/12/12/xt825j8w633lllfa096ryc4l6vsr2d",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Sagi Gidali",
+    "c": "Perimeter81",
+    "s": "FUTR.tv",
+    "t": "AWS Re:Invent 2019 Interviews - Fivetran and Perimeter81",
+    "d": "2019-12-13",
+    "u": "https://futr.tv/thefeed/2019/12/12/xt825j8w633lllfa096ryc4l6vsr2d",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Erik Peterson",
+    "c": "CloudZero",
+    "s": "FUTR.tv",
+    "t": "AWS Re:Invent 2019 Interviews - CloudZero",
+    "d": "2019-12-12",
+    "u": "https://futr.tv/thefeed/2019/12/11/aws-reinvent-2019-interviews-cloudzero",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Piyush Agarwal",
+    "c": "Cleondris",
+    "s": "FUTR.tv",
+    "t": "NetApp Insight 2019 Part 2: Interview with Igneous and Cleondris",
+    "d": "2019-11-11",
+    "u": "https://futr.tv/thefeed/2019/11/10/y5w7jjio8lw65n4u43so2w77cmmp8o",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Christian Smith",
+    "c": "Igneous",
+    "s": "FUTR.tv",
+    "t": "NetApp Insight 2019 Part 2: Interview with Igneous and Cleondris",
+    "d": "2019-11-11",
+    "u": "https://futr.tv/thefeed/2019/11/10/y5w7jjio8lw65n4u43so2w77cmmp8o",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "David Hatfield",
+    "c": "Pure Storage",
+    "s": "FUTR.tv",
+    "t": "Pure Storage's Accelerate 2019 Conference Part 1",
+    "d": "2019-10-10",
+    "u": "https://futr.tv/thefeed/2019/10/9/pure-storages-accelerate-2019-conference",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Eric Oberhofer",
+    "c": "Liqid",
+    "s": "FUTR.tv",
+    "t": "VMWorld 2019: A Quick Interview With Liqid",
+    "d": "2019-09-30",
+    "u": "https://futr.tv/thefeed/2019/9/30/vmworld-2019-a-quick-interview-with-liqid",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Abhijit Ghosh",
+    "c": "Confluera",
+    "s": "FUTR.tv",
+    "t": "VMWorld 2019: A quick conversation with Abhijit Ghosh, CEO and Founder of Confluera.",
+    "d": "2019-09-25",
+    "u": "https://futr.tv/thefeed/2019/9/25/vmworld-2019-a-quick-conversation-with-abhijit-ghosh-ceo-and-founder-of-confluera",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Mohit Aron",
+    "c": "Cohesity",
+    "s": "FUTR.tv",
+    "t": "VMWorld 2019: Quick Chat with Cohesity CEO and Founder Mohit Aron",
+    "d": "2019-09-24",
+    "u": "https://futr.tv/thefeed/2019/9/23/vmworld-2019-quick-chat-with-cohesity-ceo-and-founder-mohit-aron",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Poojan Kumar",
+    "c": "Clumio",
+    "s": "FUTR.tv",
+    "t": "VMWorld 2019: Hands On WIth Clumio",
+    "d": "2019-09-19",
+    "u": "https://futr.tv/thefeed/2019/9/19/vmworld-2019-hands-on-with-clumio",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Chandra Sekar",
+    "c": "Avi Networks",
+    "s": "FUTR.tv",
+    "t": "VMWorld 2019-Avi Networks",
+    "d": "2019-09-17",
+    "u": "https://futr.tv/thefeed/2019/9/16/vmworld-2019-avi-networks",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Poojan Kumar",
+    "c": "Clumio",
+    "s": "FUTR.tv",
+    "t": "FUTRtech SaaS Dinner with Poojan Kumar of Clumio",
+    "d": "2019-04-16",
+    "u": "https://futr.tv/thefeed/2019/4/16/futrtech-saas-dinner-with-poojan-kumar-of-clumio",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Mike Alden",
+    "c": "BYGmusic",
+    "s": "FUTR.tv",
+    "t": "SXSW 2019 Interview with BYGmusic",
+    "d": "2019-04-16",
+    "u": "https://futr.tv/thefeed/2019/4/15/sxsw-2019-interview-with-bygmusic",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Krish Sharma",
+    "c": "BYGmusic",
+    "s": "FUTR.tv",
+    "t": "SXSW 2019 Interview with BYGmusic",
+    "d": "2019-04-16",
+    "u": "https://futr.tv/thefeed/2019/4/15/sxsw-2019-interview-with-bygmusic",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Halak Mehta-Shrivastava",
+    "c": "Access Partnership",
+    "s": "FUTR.tv",
+    "t": "SXSW 2019: A Talk With Access Partnership",
+    "d": "2019-03-23",
+    "u": "https://futr.tv/thefeed/2019/3/23/sxsw-2019-a-talk-with-access-partnership",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Joshua \"Mac\" McMahon",
+    "c": "Root9B",
+    "s": "FUTR.tv",
+    "t": "Interview With Security Company Root9B at SXSW",
+    "d": "2019-03-21",
+    "u": "https://futr.tv/thefeed/2019/3/21/interview-with-security-company-root9b-at-sxsw",
     "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
   }
 ]
