@@ -59,9 +59,11 @@ A multi-guest episode is **one row per guest** (same `u`, different `g`).
 2. Fetch the three live `Show:` category pages (newest-first). Walk each from the top and stop at
    the first permalink already known — everything above is new. Category pages are server-rendered,
    so a plain HTTP GET with a browser User-Agent is enough (no dependencies).
-3. For each new permalink, fetch the post and lift the **`Guest:`** and **`Show:`** tags — they
-   render server-side as `<a rel="tag">Guest: Name</a>`. (Verified live.) The date comes from the
-   permalink itself. Multi-guest posts carry several `Guest:` tags → one row each.
+3. For each new permalink, fetch the post and lift the **`Guest:`**, **`Show:`**, and
+   **`Company:`** tags — they render server-side as `<a rel="tag">Guest: Name</a>`. (Verified
+   live.) `Company:` is emitted by the post-creation skill; older posts lack it, so company is
+   left blank to fill by hand. The date comes from the permalink itself. Multi-guest posts carry
+   several `Guest:` tags → one row each.
 4. If a guest can't be determined, the cell is set to `[NEEDS REVIEW]` — **never guessed**.
 5. Merge on `(guest, url)`: new pairs append; existing rows are preserved (keeping any manual
    edits) with only blank fields filled. A row count sanity-check guards against drops/dupes.
