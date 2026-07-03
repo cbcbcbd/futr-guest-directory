@@ -1,0 +1,13 @@
+# Transient: regenerated each run; the GitHub issue is the durable record.
+data/review_needed.txt
+
+# Local preview / paste scratch (never commit these)
+_preview.html
+current-directory.html
+
+.DS_Store
+__pycache__/
+*.pyc
+
+# Local Claude Code harness config — not project content
+.claude/

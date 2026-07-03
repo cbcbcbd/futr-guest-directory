@@ -1,0 +1,224 @@
+<!--
+  FUTR.tv Guest Directory — Squarespace Code block (self-contained renderer).
+
+  This block fetches its data from data/guests.json in the public repo and
+  renders a searchable, sortable table. It NEVER needs to change again once
+  installed — all directory updates flow through guests.json (via the cron
+  GitHub Action). Paste it into a Squarespace Code block once.
+
+  ============================================================================
+  SURGICAL-EDIT NOTE (for whoever installs this):
+  This file is the REFERENCE implementation matching the locked FUTR.tv styling
+  (Inter font, black header row, red hsl(7,55%,55%) links). If Chris's currently
+  published block differs cosmetically, prefer HIS block and apply only ONE
+  change to it: delete the inline `var DATA=[ ...~230 objects... ];` literal and
+  replace it with the fetch() wiring below (marked "FETCH WIRING"). Everything
+  else here (render/esc/sort/filter/loading+error states) can be reused as-is.
+  ============================================================================
+-->
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+  #futr-guest-directory {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    color: #1a1a1a;
+    max-width: 100%;
+  }
+  #futr-guest-directory * { box-sizing: border-box; }
+
+  #fgd-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 14px;
+  }
+  #fgd-search, #fgd-show {
+    font-family: inherit;
+    font-size: 15px;
+    padding: 9px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: #fff;
+    color: #1a1a1a;
+  }
+  #fgd-search { flex: 1 1 260px; min-width: 200px; }
+  #fgd-show { flex: 0 0 auto; }
+  #fgd-count { font-size: 13px; color: #666; margin-left: auto; }
+
+  #fgd-table-wrap { overflow-x: auto; }
+  #futr-guest-directory table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+  #futr-guest-directory thead th {
+    background: #000000;
+    color: #ffffff;
+    text-align: left;
+    padding: 11px 12px;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+    user-select: none;
+  }
+  #futr-guest-directory thead th .fgd-arrow { opacity: 0.55; font-size: 11px; }
+  #futr-guest-directory tbody td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #ececec;
+    vertical-align: top;
+  }
+  #futr-guest-directory tbody tr:hover { background: #fafafa; }
+  #futr-guest-directory a {
+    color: hsl(7, 55%, 55%);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  #futr-guest-directory a:hover { text-decoration: underline; }
+  #fgd-empty { padding: 18px 4px; color: #666; }
+</style>
+
+<div id="futr-guest-directory">
+  <div id="fgd-controls">
+    <input id="fgd-search" type="text" placeholder="Search guest, company, or episode..." autocomplete="off">
+    <select id="fgd-show"><option value="">All shows</option></select>
+    <span id="fgd-count"></span>
+  </div>
+  <div id="fgd-table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th data-key="g">Guest <span class="fgd-arrow"></span></th>
+          <th data-key="c">Company / Title <span class="fgd-arrow"></span></th>
+          <th data-key="s">Show <span class="fgd-arrow"></span></th>
+          <th data-key="t">Episode <span class="fgd-arrow"></span></th>
+          <th data-key="d">Date <span class="fgd-arrow"></span></th>
+        </tr>
+      </thead>
+      <tbody id="fgd-body"></tbody>
+    </table>
+  </div>
+  <div id="fgd-empty" style="display:none;"></div>
+</div>
+
+<script>
+(function () {
+  var DATA = [];
+  var sortKey = 'd', sortDir = -1; // default: newest first
+
+  var body   = document.getElementById('fgd-body');
+  var search = document.getElementById('fgd-search');
+  var showSel= document.getElementById('fgd-show');
+  var count  = document.getElementById('fgd-count');
+  var empty  = document.getElementById('fgd-empty');
+  var heads  = document.querySelectorAll('#futr-guest-directory thead th');
+
+  function esc(s) {
+    return String(s == null ? '' : s)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+
+  // Rows that aren't publishable (no resolved guest) are never rendered.
+  function publishable(r) {
+    return r.g && r.g.indexOf('[NEEDS REVIEW]') === -1 && r.s !== 'No Guest';
+  }
+
+  function populateShows() {
+    var shows = {};
+    DATA.forEach(function (r) { if (publishable(r) && r.s) shows[r.s] = true; });
+    Object.keys(shows).sort().forEach(function (s) {
+      var o = document.createElement('option');
+      o.value = s; o.textContent = s;
+      showSel.appendChild(o);
+    });
+  }
+
+  function currentRows() {
+    var q = search.value.trim().toLowerCase();
+    var show = showSel.value;
+    var rows = DATA.filter(function (r) {
+      if (!publishable(r)) return false;
+      if (show && r.s !== show) return false;
+      if (!q) return true;
+      return (r.g + ' ' + r.c + ' ' + r.t).toLowerCase().indexOf(q) !== -1;
+    });
+    rows.sort(function (a, b) {
+      var av = (a[sortKey] || '').toLowerCase();
+      var bv = (b[sortKey] || '').toLowerCase();
+      if (av < bv) return -1 * sortDir;
+      if (av > bv) return  1 * sortDir;
+      return 0;
+    });
+    return rows;
+  }
+
+  function render() {
+    var rows = currentRows();
+    if (!rows.length) {
+      body.innerHTML = '';
+      empty.style.display = 'block';
+      empty.textContent = DATA.length ? 'No matching episodes.' : '';
+      count.textContent = DATA.length ? '0 of ' + DATA.length : '';
+      updateArrows();
+      return;
+    }
+    empty.style.display = 'none';
+    var html = '';
+    for (var i = 0; i < rows.length; i++) {
+      var r = rows[i];
+      var guest = r.u ? '<a href="' + esc(r.u) + '" target="_blank" rel="noopener">' + esc(r.g) + '</a>' : esc(r.g);
+      var show  = r.su ? '<a href="' + esc(r.su) + '" target="_blank" rel="noopener">' + esc(r.s) + '</a>' : esc(r.s);
+      html += '<tr>' +
+        '<td>' + guest + '</td>' +
+        '<td>' + esc(r.c) + '</td>' +
+        '<td>' + show + '</td>' +
+        '<td>' + esc(r.t) + '</td>' +
+        '<td>' + esc(r.d) + '</td>' +
+      '</tr>';
+    }
+    body.innerHTML = html;
+    var total = DATA.filter(publishable).length;
+    count.textContent = rows.length + ' of ' + total + ' guests';
+    updateArrows();
+  }
+
+  function updateArrows() {
+    heads.forEach(function (th) {
+      var arrow = th.querySelector('.fgd-arrow');
+      if (!arrow) return;
+      arrow.textContent = (th.getAttribute('data-key') === sortKey)
+        ? (sortDir === 1 ? '\u25B2' : '\u25BC') : '';
+    });
+  }
+
+  heads.forEach(function (th) {
+    th.addEventListener('click', function () {
+      var key = th.getAttribute('data-key');
+      if (key === sortKey) { sortDir = -sortDir; }
+      else { sortKey = key; sortDir = (key === 'd') ? -1 : 1; }
+      render();
+    });
+  });
+  search.addEventListener('input', render);
+  showSel.addEventListener('change', render);
+
+  // ======================= FETCH WIRING (the one change) ====================
+  // Replaces the old inline `var DATA=[...];` literal. On load, pull the rows
+  // from the public JSON and render once.
+  count.textContent = 'Loading...';
+  fetch('https://raw.githubusercontent.com/cbcbcbd/futr-guest-directory/main/data/guests.json', { cache: 'no-cache' })
+    .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+    .then(function (rows) {
+      DATA = rows;
+      populateShows();
+      render();
+    })
+    .catch(function (e) {
+      count.textContent = '';
+      empty.style.display = 'block';
+      empty.textContent = 'Could not load the directory (' + e.message + '). Please refresh.';
+    });
+  // ==========================================================================
+})();
+</script>

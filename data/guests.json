@@ -1,0 +1,47 @@
+[
+  {
+    "g": "Sample Guest Alpha",
+    "c": "Placeholder Industries",
+    "s": "FUTR.tv",
+    "t": "PLACEHOLDER — replace via the one-time conversion (scripts/update_directory.py --from-html)",
+    "d": "2026-06-30",
+    "u": "https://futr.tv/thefeed/2026/6/30/placeholder-alpha",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Sample Guest Bravo",
+    "c": "Example Corp",
+    "s": "IT Visionaries",
+    "t": "PLACEHOLDER — IT Visionaries sample row",
+    "d": "2026-06-20",
+    "u": "https://futr.tv/thefeed/2026/6/20/placeholder-bravo",
+    "su": "https://futr.tv/thefeed/category/Show%3A+IT+Visionaries"
+  },
+  {
+    "g": "Sample Guest Charlie",
+    "c": "Demo Logistics",
+    "s": "The Fleet",
+    "t": "PLACEHOLDER — The Fleet sample row",
+    "d": "2026-06-10",
+    "u": "https://futr.tv/thefeed/2026/6/10/placeholder-charlie",
+    "su": "https://futr.tv/thefeed/category/Show%3A+The+Fleet"
+  },
+  {
+    "g": "Sample Guest Delta",
+    "c": "Test Ventures",
+    "s": "FUTR.tv",
+    "t": "PLACEHOLDER — multi-guest episode (row 1 of 2, shares one URL)",
+    "d": "2026-06-05",
+    "u": "https://futr.tv/thefeed/2026/6/5/placeholder-multi",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  },
+  {
+    "g": "Sample Guest Echo",
+    "c": "Test Ventures",
+    "s": "FUTR.tv",
+    "t": "PLACEHOLDER — multi-guest episode (row 2 of 2, shares one URL)",
+    "d": "2026-06-05",
+    "u": "https://futr.tv/thefeed/2026/6/5/placeholder-multi",
+    "su": "https://futr.tv/thefeed/category/Show%3A+FUTR.tv"
+  }
+]
