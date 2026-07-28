@@ -50,8 +50,8 @@ both depend on them.
 `su` pattern: `https://futr.tv/thefeed/category/Show%3A+{name}` — colon → `%3A`, spaces → `+`.
 A multi-guest episode is **one row per guest** (same `u`, different `g`).
 
-> The current `data/guests.json` is a **placeholder** (obvious `Sample Guest …` rows) until the
-> one-time conversion below replaces it wholesale.
+> `data/guests.json` holds the **live directory**, seeded once from the published block (via the
+> `--from-html` conversion below) and kept current automatically by the daily Action.
 
 ## How detection works
 
