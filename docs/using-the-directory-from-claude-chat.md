@@ -26,6 +26,9 @@ Multi-guest episodes are **one row per guest** (same `u`, different `g`).
 
 ## What the chat side should NOT do (don't reproduce this)
 
+- ✅ **The `guest-directory` skill is a thin *reader* now** — it answers "who's been on / is
+  this posted / catch the directory up" by fetching `guests.json`. It must never rebuild the
+  directory, re-transcribe rows, or ask Chris to paste HTML.
 - ❌ **Do not rebuild the directory** from a pasted block or re-transcribe rows. The
   older `guest-directory` flow ("paste in the whole HTML, regenerate everything") is
   **superseded**. If the directory needs updating, the GitHub cron already does it;
